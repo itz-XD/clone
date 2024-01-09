@@ -280,7 +280,7 @@ li {
     color: var(--white);
     margin-top: 20px;
     padding: 12px 25px;
-    transition: all ease .30s;
+    transition: all ease-in-out .30s;
 }
 
 .home-text a:hover {
@@ -313,10 +313,16 @@ li {
     padding: 35px 0;
 }
 
-.textleft-span span a{
+.textleft-span span a {
     font-size: 20px;
     color: var(--white);
     border: 2px solid var(--white);
     padding: 10px 20px;
     border-radius: 50px;
+    transition: all ease-in-out .30s;
+}
+
+.textleft-span span a:hover {
+    border: 2px solid var(--sky-blue);
+    background-color: var(--sky-blue);
 }
